@@ -2,8 +2,25 @@
 	width:80%;
 }
 
+body{
+	background-color:#212121;
+}
+
+.card{
+	background-color:white;
+	box-shadow: 0px 0px 2px gray;
+	-webkit-transition: box-shadow 0.5s;
+	-moz-transition: box-shadow 0.5s;
+	transition: box-shadow 0.5s;
+}
+
+.card:hover{
+	box-shadow: 0px 0px 10px gray;
+}
+
 .red{
 	background-color: red;
 	margin-top:0px;
+	margin-bottom: 5px;
 	padding:5px;
 }
