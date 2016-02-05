@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>video PLayer</title>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<!--Added angular-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/videoPlayerStyle.css">
+</head>
+<body>
+	<div class='row red'>
+		<div class='col-md-2'><img class="image-responsive"src="images/logo.png"/></div>
+		<div class='col-md-10 form-inline'>
+			<input type='text' id="search-box" class='form-control'>
+			<button type="button" class="btn btn-default btn-md">
+				<span class="glyphicon glyphicon-search" style="color:red;"></span>
+			</button>
+		</div>
+	</div>
+	<div class='container-fluid'>
+			<div class="col-md-8">
+				<video width="800" height="500" controls>
+					<source src="video.mp4" type="video/mp4">
+				</video>
+			<h1> Best video player</h1>
+		</div>
+		<div class="col-md-4"> 
+			<h3>play list</h3>
+
+		</div>
+	</div>
+</body>
+</html>
